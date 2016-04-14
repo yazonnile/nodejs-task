@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>NodeJS task</title>
+	<link rel="stylesheet" href="./main.css">
+</head>
+<body>
+	<div class="wrap">
+		<h2>
+			root
+			<button>+file</button>
+			<button>+folder</button>
+			<button>remove selected</button>
+		</h2>
+
+		<div class="new">
+			<h3>New folder</h3>
+			<input type="text" placeholder="folder name">
+			<button>Add</button>
+		</div>
+
+		<ul>
+			<li class="folder">
+				<h2>
+					<label><input type="checkbox"> books</label>
+					<button>+file</button>
+					<button>+folder</button>
+					<button>edit</button>
+				</h2>
+				<ul>
+					<li class="file">
+						<label><input type="checkbox"> Im Westen nichts Neues</label><button>edit</button>
+					</li>
+					<li class="file">
+						<label><input type="checkbox"> Three comrades</label><button>edit</button>
+					</li>
+				</ul>
+			</li>
+			<li class="folder">
+				<h2>
+					<label><input type="checkbox"> docs</label>
+					<button>+file</button>
+					<button>+folder</button>
+					<button>edit</button>
+				</h2>
+				<ul>
+					<li class="file">
+						<label><input type="checkbox"> archive01</label><button>edit</button>
+					</li>
+					<li class="file">
+						<span><input type="text" value="archive02"></span><button>save</button>
+					</li>
+				</ul>
+			</li>
+			<li class="folder">
+				<h2>
+					<label><input type="checkbox"> films</label>
+					<button>+file</button>
+					<button>+folder</button>
+					<button>edit</button>
+				</h2>
+				<div class="new">
+					<h3>New file</h3>
+					<input type="text" placeholder="filename">
+					<button>Add</button>
+				</div>
+				<ul>
+					<li class="file">
+						<label><input type="checkbox"> 2012</label><button>edit</button>
+					</li>
+					<li class="file">
+						<label><input type="checkbox"> Terminator</label><button>edit</button>
+					</li>
+				</ul>
+			</li>
+			<li class="file">
+				<label><input type="checkbox"> readme</label><button>edit</button>
+			</li>
+			<li class="file">
+				<label><input type="checkbox"> todo</label><button>edit</button>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>
