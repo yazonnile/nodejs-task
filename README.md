@@ -8,5 +8,6 @@
 6. Frontend ===> React (or Angular)
 7. Backend ===> Express + Mongodb
 8. You can change everything you want, except task text :)
+9. Any other improvements will be a plus!
 
 ![](http://screen.w3.ua/Apr16/39164207.jpg)
